@@ -1,0 +1,30 @@
+
+
+Capgemini Assesments Topics
+
+
+Core Java 8  
+Topic/Sub-Topic
+
+Core Java 
+Data Types and Operators
+Control Statements and Arrays
+Classes and Objects
+Constructors 
+String Handling
+Static Modifier
+Inheritance and Polymorphism
+Abstract class and Interface
+Exception Handling
+Collection and Generics
+Multithreading
+Concurrency
+Lambda Expression
+Stream API
+Junit
+SQL
+JDBC
+
+
+Pattern Programs &Series
+Hackerrank questions
