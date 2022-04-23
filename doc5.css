@@ -1,0 +1,53 @@
+﻿header{
+height: 50px;
+width: 1500px;
+border: 6px solid pink;
+padding:50px 30px;
+margin: 5px auto;
+background-color:green;
+font-family:"courier",courier,times new roman;
+}
+.img{
+width=100%;
+position: center;
+}
+
+section article{
+font-weight:200;
+color: black;
+font-size: 1em;
+background-color:grey;
+}
+ 
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: blue;
+  cursor: pointer;
+  width: 100%;
+  opacity:0.8;
+input[type=text], input[type=text] ,input[type=text],input[type=submit] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: black;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus, input[type=text]:focus, input[type=submit]:focus {
+  background-color: #ddd;
+  outline: blue;
+}
+
+}
+.btn:hover{
+opacity:1.0;
+}
+
+footer{
+color: green;
+font-size: 2em;
+text-decoration: underline;
+}
+

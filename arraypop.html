@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Array</title>
+</head>
+<body>
+<h1>Array</h1>
+
+<script>
+
+var myArray=["Mounika","Raju",10,56];
+document.write(myArray[0],"<br>");
+document.write(myArray[1],"<br>");
+
+document.write(myArray[2],"<br>");
+
+
+document.write(myArray[myArray.length-1],"<br>");
+document.write("array using loop<br>");
+for(var fruit of myArray)
+{
+document.write(fruit,"<hr>");
+}
+myArray.push("yellow");
+document.write(myArray,"<hr>");
+document.write(myArray.length,"<br>");
+myArray.unshift("pink");
+document.write(myArray,"<hr>");
+document.write(myArray.length,"<br>");
+var last=myArray.pop();
+document.write("last element popped out=",last,"<br>");
+document.write(myArray.length);
+var f=myArray.shift();
+document.write("first element popped out=",f,"<br>");
+document.write(myArray.length);
+</script>
+</body>
+</html>

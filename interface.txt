@@ -1,0 +1,27 @@
+Interface : 	- blueprint of a class	- It has static constant and abstract method	
+	Why to use interface?	- to achieved abstraction	
+- to support multiple inheritance	
+- to achieve loose coupling		
+MyDate - dd,mm,yy, 
+didplay()-display date in dd-mm-yy format	
+Person - id, name, dob		
+Person(Entity)-MyDate(part of Entity)=> HAS-A relationship
+	syntax : interface interface-name			
+
+
+
+
+{				
+//			
+}									
+interface Showable			
+{			
+int a=5;//public,static,final			
+void show();//public, abstract		
+	}						
+Interface - Interface => extends			
+Interface - class => implements			
+class - class => extends
+
+
+

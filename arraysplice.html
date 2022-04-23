@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Array splice</title>
+</head>
+<body>
+<h1>Array splice</h1>
+
+<script>
+
+var myArray=["Mounika","Raju",10,56];
+document.write(myArray[0],"<br>");
+document.write(myArray[1],"<br>");
+
+document.write(myArray[2],"<br>");
+
+
+/*document.write(myArray[myArray.length-1],"<br>");
+document.write("array using loop<br>");
+for(var fruit of myArray)
+{
+document.write(fruit,"<hr>");
+}*/
+
+var removed = myArray.splice(0,1);
+document.write("<br>",myArray);
+document.write("<br>removed element:",removed);
+document.write("<br>",removed );
+document.write("<br>",removed.length);
+removed = myArray.splice(1,0,"new","second");
+document.write("<br>",myArray);
+document.write("<br>added new elements in myArray:new second",removed);
+document.write("<br>",removed);
+document.write("<br>",removed.length,);
+removed = myArray.splice(1,2,"mouni","sandy");
+document.write("<br>",myArray);
+document.write("<br>removed element:",removed);
+document.write("<br>",removed);
+document.write("<br>",removed.length);
+/*removed=myArray.splice(2);
+document.write("<br>",myArray);*/
+
+removed=myArray.splice(-4);
+document.write("<br>",myArray);
+document.write("<br>removed element:",removed);
+document.write("<br>",removed);
+document.write("<br>",removed.length);
+
+</script>
+</body>
+</html>

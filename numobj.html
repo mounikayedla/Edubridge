@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Array</title>
+</head>
+<body>
+<h1>Math object</h1>
+<script>
+
+document.write(Number.MAX_VALUE);
+document.write("<br>",Number.MIN_VALUE);
+document.write("<br>",Number.POSITIVE_INFINITY);
+document.write("<br>",Number.NEGATIVE_INFINITY);
+document.write("<br>",Number.NaN);
+function checkDate()
+{
+var d=32;
+if((d<1) || (d>31))
+{
+document.write("<br>",Number.NaN);
+}
+else
+{
+document.write("<br>",d);
+}
+}
+checkDate();
+var n=parseInt(prompt("enter number"));
+document.write("<br>",n);
+
+</script>
+</body>
+</html>

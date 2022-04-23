@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Array</title>
+</head>
+<body>
+<h1>function object</h1>
+<input NAME="colorButton" TYPE="button" VALUE="Background color" onclick="setBgColor()">
+<script>
+var setBgColor=new Function("document.bgColor='yellow'");
+//var colorChoice="green";
+/*if (colorChoice=="pink")
+{
+setBgColor();
+}*/
+document.form1.colorButton.onclick = setBgColor;
+</script>
+</body>
+</html>
