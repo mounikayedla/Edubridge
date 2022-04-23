@@ -1,0 +1,26 @@
+#sect1 {  
+
+    height:650px;  
+    background-image:url("/assets/Images/WALL1.jpg");
+    background-size:100%;  
+    background-size:cover;  
+}
+ul#nav-item li{
+    margin-right: 100px;
+    display:inline-block;
+  
+}
+#sect1{
+    background-color: lightpink ;
+}   
+ul#d li
+{
+display:table-row-group;
+    background-color: rgba(180, 241, 12, 0.445);
+
+}
+#b{
+text-align: center;
+color:rgb(231, 6, 183);
+}
+

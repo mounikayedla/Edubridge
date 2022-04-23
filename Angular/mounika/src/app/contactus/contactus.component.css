@@ -1,0 +1,18 @@
+#contact us{
+    background-color: rgba(184, 6, 184, 0.705);
+    color:  rgba(184, 6, 184, 0.705);
+text-align: center;
+}
+#f1{
+    color: royalblue;
+    background-color: rgb(11, 243, 50);
+    text-align: center;
+}
+#b1{
+  color: aliceblue;  
+  background-color: black;
+  text-align:center ;
+}
+#m{
+  display: inline;
+}

@@ -1,0 +1,61 @@
+#carouselExampleCaptions1{
+    margin: 450px;
+
+}
+#sect1{
+    background-color:cornsilk;
+}
+#Necklace1,#Necklace3{
+    margin-left: 600px;
+    background-color:rgba(255, 0, 255, 0.281);
+}
+#Necklace2,#Necklace4{
+    margin-right: 600px;
+    background-color:rgba(255, 0, 200, 0.288);
+}
+
+
+
+#Chain2,#Chain4{
+    margin-left: 600px;
+    background-color: thistle;
+}
+
+#Ring2,#Ring4{
+    margin-left: 600px;
+    background-color:linen;
+}
+
+#Bangle2,#Bangle4{
+    margin-left: 600px;
+    background-color: wheat;
+}
+
+#Bangle1,#Bangle3{
+    margin-right: 600-x;
+    background-color:rgb(202, 228, 57);
+
+}
+
+
+   
+
+
+#Ring1,#Ring3{
+    margin-right: 600px;
+    background-color: wheat;
+}
+
+#Chain1,#Chain3{
+    margin-right: 600px;
+    background-color: thistle;
+}
+#Earrings2,#Earrings4{
+    margin-left: 600px;
+    background-color: rgb(26, 219, 219);
+}
+#Earrings1,#Earrings3{
+    margin-right: 600px;
+    
+    background-color: rgb(14, 226, 241);
+}
