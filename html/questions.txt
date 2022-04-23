@@ -1,0 +1,55 @@
+1.
+2.How restrictive is the 
+3.
+From Priyanka Kadam to Everyone:  01:06 PM
+5.class Helper{	private int data;
+	private Helper()	{	
+	data = 5;	
+}
+}
+public class Test{
+	public static void main(String[] args)	{
+		Helper help = new Helper();	
+	System.out.println(help.data);
+	}
+}
+a) Compilation error      b) 5
+c) Runtime error          d) None of theseans.
+a (data variable is private,accessible only in Helper class)
+6.public class Test implements Runnable{
+	public void run()	{
+		System.out.printf(" Thread's running ");
+	}	try	{	
+	public Test()	
+	{			
+Thread.sleep(5000);	
+	}	
+}	catch (InterruptedException e)	{	
+	e.printStackTrace();	
+}	
+public static void main(String[] args)	{	
+	Test obj = new Test();		
+Thread thread = new Thread(obj);	
+	thread.start();		
+System.out.printf(" GFG ");	
+}
+}a) GFG Thread’s running        b) Thread’s running GFG
+c) Compilation error            d) Runtimer errorans. 
+c(you can't add constructor inside try-catch)
+7.public class Base{
+	private int multiplier(int data)	{	
+	return data*5;
+	}
+}class Derived extends Base{	
+private static int data;	public Derived()	{		data = 25;	}	public static void main(String[] args)	{		Base temp = new Derived();		System.out.println(temp.multiplier(data));	}}a) 125b) 25c) Runtime errord) Compile time errorans.d(multiplier is private, you can't access this method outside the class)
+From Priyanka Kadam to Everyone:  01:07 PM
+8.public class javaclass{	static	{		System.out.printf("%d", 1);	}	static	{		System.out.printf("%d", 2);	}	static	{		System.out.printf("%d", 3);	}	private static int myMethod()	{		return 4;	}	private int function()	{		return 5;	}	public static void main(String[] args)	{		System.out.printf("%d", (new javaclass()).function() + myMethod());	}}a) 123b) 45c) 12345d) 1239ans. d
+9.public class Outer{	public static int temp1 = 1;	private static int temp2 = 2;	public int temp3 = 3;	private int temp4 = 4;	public static class Inner	{		private static int temp5 = 5;				private static int getSum()		{			return (temp1 + temp2 + temp3 + temp4 + temp5);		}	}	public static void main(String[] args)	{		Outer.Inner obj = new Outer.Inner();		System.out.println(obj.getSum());	}}a) 15b) 9c) 5d) Compilation Errorans.d(you can't use non-static data inside static inner class)
+10.interface Anonymous{	public int getValue();}public class Outer{	private int data = 15;	public static void main(String[] args)	{		Anonymous inner = new Anonymous()				{					int data = 5;					public int getValue()					{						return data;					}					public int getData()					{						return data;					}				};		Outer outer = new Outer();		System.out.println(inner.getValue() + inner.getData() + outer.data);	}}a) 25b) Compilation errorc) 20d) Runtime errorans. b(getData() is not present in Anonymous interface)
+From Priyanka Kadam to Everyone:  01:07 PM
+11.public class Test extends Thread implements Runnable{	public void run()	{		System.out.printf("GFG ");	}	public static void main(String[] args) throws InterruptedException	{		Test obj = new Test();		obj.run();		obj.start();	}}a) Runtime errorb) Compilation errorc) GFG GFGd) None of the aboveans. c12. Which of these field declarations are legal within the body of an interface?(a) Private final static int answer = 42 (b) public static int answer=42(c) final static answer =42 (d) int answer(e) No error.ans. b
+13.A method within a class is only accessible by classes that are defined within the same package as the class of the method. Which one of the following is used to enforce such restriction?(a) Declare the method with the keyword public(b) Declare the method with the keyword private(c) Declare the method with the keyword protected(d) Do not declare the method with any accessibility modifiers(e) Declare the method with the keyword public and private.ans.d14. Given the codeString s1 = ” yes” ;String s2 = ” yes ” ;String s3 = new String ( s1);Which of the following would equate to true?(a) s1 == s2 (b) s1 = s2 (c) s3 == s1 (d) s3=s1 (e) s1!=s2.ans. a
+From Priyanka Kadam to Everyone:  01:08 PM
+15.
+17.
+18.What will be the result of attempting to compile the following program?public class MyClass {long var;public void MyClass(long param) { var = param; } //(1)public static void main(String[] args) {MyClass a,b;a = new MyClass(); //(2)b = new MyClass(5); //(3)}}(a)A compilation ERROR will occur at (1), since constructors cannot specify a return value(b)A compilation error will occur at (2), since the class does not have a default constructor(c)A compilation error will occur at (3), since the class does not have a constructor which takes one argument of type int(d)The program will compile correctly(e)The program will compile and execute correctly.Ans. c

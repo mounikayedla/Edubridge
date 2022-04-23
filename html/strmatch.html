@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lan="en">
+<head>
+<meta charset="UTF-8">
+<title>string object</title>
+</head>
+<body>
+
+
+<script>
+var str="java full stack";
+var m=str.match(/u/);
+var m1=str.match(/a/g);
+var m2=str.match(/full/);
+//global modifier
+var m3=str.match(/m/);
+var r=str.match("f");
+var n=str.replace("java","core java");
+document.write("<br>match method:",m,"<br>");
+document.write("<br>match method:",m1,"<br>");
+document.write("<br>match method:",m2,"<br>");
+document.write("<br>match method:",m3,"<br>");
+document.write("<br>search method:",r,"<br>");
+document.write("<br>replace method:",n,"<br>");
+</script>
+</body>
+</html>

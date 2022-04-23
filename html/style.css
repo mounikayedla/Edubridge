@@ -1,0 +1,16 @@
+﻿header{
+color: red;
+font-size: 2em;
+text-decoration: underline;
+}
+section article{
+font-weight:200;
+font-size: 1.1em;
+color: blue;
+}
+footer{
+font-size: 0.8em;
+font-weight:200;
+color: green;
+text-decoration: underline;
+}

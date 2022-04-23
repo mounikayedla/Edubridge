@@ -1,0 +1,22 @@
+﻿
+a:link{
+color: rgb(245,93,66);
+font-size: 1em;
+text-decoration: underline;
+background-color: #4b42f5;
+}
+a:hover{
+background-color: #03fc03;
+color: rgb(75,66,245);
+font-size: 2em;
+font-weight: 200;
+}
+a:visited{
+color: rgb(245,66,236);
+background-color: #e8fa64;
+font-size: 1em;
+font-width: 600;
+}
+a:active{
+color: rgb(171,91,85);
+}          

@@ -1,0 +1,8 @@
+Difference between CI and SI :1.Partial dependency can be injected using setter only but it is not possible by constructor.
+Suppose there are 3 properties in a class having 3 arg constructor and setter methods. 
+In such case, if you want to pass information for only 1property, it is possible by setter method only.
+2.Setter injection overrides constructor injection.
+ If we use both constructor and setter , IOC container will use setter injection.
+3.we can easily change value by setter injection,
+ it doesn't create new instance like constructor.
+so setter injection is flexible than constructor injection.
